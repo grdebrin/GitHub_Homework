@@ -1,0 +1,20 @@
+Баг-репорт
+
+  ID: 1
+  Project: homework
+  Title: При нажатии кнопки - "Войти" на странице авторизации, сервер выдает 404 ошибку.
+  STR:
+    1. Нажать кнопку - "Авторизация"
+    2. Ввести логин - Georgiy
+    3. Ввести пароль - 123456789
+    4. Нажать кнопку - "Войти"
+  Actual result: Страница не загружается, сервер возвращает 404 статус код
+  Expected result: Загружается страница личного кабинета пользователя
+  Status: open
+  Reporter: Georgiy Debrin
+  Severity: Blocker
+  Priority: High
+  Environment: Google Chrome 112.0.5615.137
+  Attachment: bug.jpg
+  Assignee: Georgiy Debrin
+  
